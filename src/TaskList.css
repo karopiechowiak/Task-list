@@ -1,0 +1,11 @@
+.task-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 70vw;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid #999;
+	border-bottom: none;
+	box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,23 @@
+.task-list-item {
+	flex-basis: 10vh;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #666;
+	border-bottom: 1px solid #999;
+}
+
+.task-list-item-button {
+	border: none;
+	background: none;
+	font-size: 1.3em;
+	margin-left: 0.5em;
+	color: #666;
+	transition: 0.3s;
+}
+
+.task-list-item-button:hover {
+	transform: scale(1.2);
+	color: #999;
+}
